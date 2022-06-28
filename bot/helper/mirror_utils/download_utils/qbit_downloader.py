@@ -31,7 +31,7 @@ class QbDownloader:
         self.__uploaded = False
         self.is_seeding = False
         self.__dupChecked = False
-        self.__rechecked = False
+        self.__rechecked = True
 
     def add_qb_torrent(self, link, path, select):
         self.__path = path
